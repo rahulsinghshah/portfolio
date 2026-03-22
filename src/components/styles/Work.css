@@ -354,14 +354,24 @@
   .carousel-slide {
     padding: 15px 0;
   }
+  
+  /* Stack the number and text on small phones to stop severe squishing */
+  .carousel-info {
+    flex-direction: column;
+    gap: 15px;
+  }
   .carousel-number h3 {
-    font-size: 28px;
+    font-size: 30px;
+  }
+  .carousel-details {
+    width: 100%;
   }
   .carousel-details h4 {
-    font-size: 18px;
+    font-size: 22px;
   }
   .carousel-category {
-    font-size: 13px;
+    font-size: 14px;
+    line-height: 1.4;
   }
   .carousel-tools .tools-label {
     font-size: 12px;
@@ -373,7 +383,21 @@
   .carousel-impact span {
     font-size: 12px;
     padding: 4px 12px;
+    white-space: normal;
   }
+  
+  /* Fix image sizing visibility */
+  .work-image-in {
+    width: 100%;
+    display: block;
+  }
+  .work-image img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: contain;
+  }
+
   /* Fix arrows overlapping content by aligning them with bottom dots */
   .carousel-arrow {
     width: 45px;

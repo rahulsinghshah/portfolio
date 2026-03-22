@@ -349,11 +349,10 @@
 @media only screen and (max-width: 600px) {
   .work-section h2 {
     font-size: 36px;
+    margin-bottom: 20px;
   }
-  .carousel-arrow {
-    width: 35px;
-    height: 35px;
-    font-size: 16px;
+  .carousel-slide {
+    padding: 15px 0;
   }
   .carousel-number h3 {
     font-size: 28px;
@@ -362,12 +361,36 @@
     font-size: 18px;
   }
   .carousel-category {
-    font-size: 14px;
+    font-size: 13px;
+  }
+  .carousel-tools .tools-label {
+    font-size: 12px;
+  }
+  .carousel-tools p {
+    font-size: 13px;
+    margin-top: 4px;
+  }
+  .carousel-impact span {
+    font-size: 12px;
+    padding: 4px 12px;
+  }
+  /* Fix arrows overlapping content by aligning them with bottom dots */
+  .carousel-arrow {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    top: auto;
+    bottom: -15px;
+    transform: none;
+    background: rgba(255, 255, 255, 0.1);
   }
   .carousel-arrow-left {
-    left: 0px;
+    left: 10px;
   }
   .carousel-arrow-right {
-    right: 0px;
+    right: 10px;
+  }
+  .carousel-dots {
+    margin-top: 15px;
   }
 }

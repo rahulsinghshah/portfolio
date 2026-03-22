@@ -391,3 +391,35 @@ h2.landing-info-h2 {
     font-size: 75px;
   }
 }
+
+@media screen and (max-width: 499px) {
+  .landing-profile-picture {
+    min-width: 160px;
+    width: 60vw;
+    top: 48%;
+  }
+  .landing-intro {
+    top: 15%;
+  }
+  .landing-intro h1 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .landing-intro h2 {
+    font-size: 18px;
+  }
+  .landing-info {
+    bottom: 20px;
+  }
+  .landing-info h2 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-left: 10px;
+  }
+  h2.landing-info-h2 {
+    font-size: 30px;
+  }
+  .landing-info h3 {
+    font-size: 18px;
+  }
+}
